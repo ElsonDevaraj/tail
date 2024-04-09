@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.8"
+  },
+  "scripts": {
+    "start" : "vite",
+    "build-css": "npx tailwindcss -i src/style.css -o public/style.css --watch"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "tail",
+  "description": "This repo is for a Youtube Crash Course on Tailwindcss Link to Series: https://www.youtube.com/playlist?list=PLF6w5aHa6V36hSB40o6gPHG3YGnud6B_H Run \"npm run build-css\" to build and start watcher before making any changes in codes.",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
